@@ -1,0 +1,23 @@
+{
+  "name": "cd",
+  "version": "1.0.0",
+  "description": "Landing page using npm and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zadag/Restaraunt-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zadag/Restaraunt-template/issues"
+  },
+  "homepage": "https://github.com/Zadag/Restaraunt-template#readme",
+  "devDependencies": {
+    "webpack": "^5.13.0",
+    "webpack-cli": "^4.3.1"
+  }
+}
