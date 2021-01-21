@@ -66,9 +66,25 @@ table {
 }
 
 #about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     margin-top: 10vh;
     height: 70vh;
     width: 70vh;
-    background-color: gray;
-    opacity: 70%;
+    background-color: rgb(238, 208, 74);
+}
+
+#about-header {
+    font-size: 10vh;
+}
+
+#about-text { 
+    font-size: 3vh;
+    margin-top: 7vh;
+}
+
+#ant-img {
+    height: 6vh;
+    margin-left: 3vh;
 }
