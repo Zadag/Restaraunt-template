@@ -88,3 +88,33 @@ table {
     height: 6vh;
     margin-left: 3vh;
 }
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 80vw;
+    background-color: rgba(255, 0, 0, 0.438);
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+    height: 50%;
+    width: 30%;
+    background-color: yellow;
+}
+
+.menu-img {
+    margin-top: 2vh;
+    height: 20vh;
+    width: 20vh;
+}
+
+.menu-description {
+    margin-top: 3vh;
+    font-size: 5vh;
+}
