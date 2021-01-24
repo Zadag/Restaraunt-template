@@ -95,7 +95,7 @@ table {
     flex-wrap: wrap;
     height: 70vh;
     width: 80vw;
-    background-color: rgba(255, 0, 0, 0.438);
+    background-color: orange;
     margin-top: 6vh;
 }
 
@@ -118,4 +118,22 @@ table {
 .menu-description {
     margin-top: 3vh;
     font-size: 5vh;
+}
+
+#contact-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    margin-top: 30vh;
+}
+
+#contact-header {
+    margin-top: 5vh;
+    font-size: 10vh;
+}
+
+#contact-para {
+    margin-top: 6vh;
+    font-size: 3vh;
 }
